@@ -51,7 +51,7 @@ if(list.size()==0){
 %>
 	<tr>
 		<td><%=map.get("biNum") %></td>
-		<td><%=map.get("biTitle") %></td>
+		<td><a href="/board/view.jsp?biNum=<%=map.get("biNum")%>"><%=map.get("biTitle")%></a></td>
 		<td><%=map.get("biWriter") %></td>
 		<td><%=map.get("credat") %></td>
 	</tr>
